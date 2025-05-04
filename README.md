@@ -45,8 +45,8 @@ A full-stack **User Management CRUD** application built with **Java + Spring Boo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Pipe-Garcia/management-users-fullstack.git
+   cd management-users-fullstack
 
 2. Update DB credentials in src/main/resources/application.properties
 
@@ -86,9 +86,25 @@ Server will start on: http://localhost:8080
 |POST|/api/login|Authenticate & get JWT|
 
 
-### 📸 UI Preview (Coming Soon)
+### 📸 UI Preview
 
-   Will include screenshots of the login screen, dashboard and users table.
+
+  - **✅ Register Page – Form to create new users**
+
+  - **🔐 Login Page – Session start and token generation**
+
+  - **📄 User List Page – Table with users fetched via API**
+
+  - **🗑️ Delete User Flow – Confirmation and removal from DB**
+
+  - **✏️ Update User Page (optional) – Form to edit user info (próxima feature)**
+
+  - **🔐 JWT in localStorage – DevTools screenshot (opcional educativo)**
+
+  - **🧂 Hashed Password – Example in phpMyAdmin (solo si aclarás que es visible sólo para fines educativos / testing)**
+
+
+    ⚠️ Nota: La contraseña se muestra hasheada en phpMyAdmin con fines educativos. En producción, la base de datos debe estar protegida adecuadamente y los hashes no deben ser expuestos.   
 
 
 ### 📧 Author
