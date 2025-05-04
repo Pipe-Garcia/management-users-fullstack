@@ -97,11 +97,11 @@ Server will start on: http://localhost:8080
 
   - **🗑️ Delete User Flow – Confirmation and removal from DB**
 
-  - **✏️ Update User Page (optional) – Form to edit user info (próxima feature)**
+  - **✏️ Update User Page (optional) – Form to edit user info (next feature)**
 
-  - **🔐 JWT in localStorage – DevTools screenshot (opcional educativo)**
+  - **🔐 JWT in localStorage – DevTools screenshot (Educational purposes)**
 
-  - **🧂 Hashed Password – Example in phpMyAdmin (solo si aclarás que es visible sólo para fines educativos / testing)**
+  - **🧂 Hashed Password – Example in phpMyAdmin**
 
 
     ⚠️ Nota: La contraseña se muestra hasheada en phpMyAdmin con fines educativos. En producción, la base de datos debe estar protegida adecuadamente y los hashes no deben ser expuestos.   
